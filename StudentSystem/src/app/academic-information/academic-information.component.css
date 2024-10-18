@@ -1,0 +1,66 @@
+.main-div {
+    position: absolute;
+    left: 282px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a clean, modern font */
+    background-color: #f4f4f4; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .main-div {
+    background-color: #ffffff; /* White background for the form container */
+    padding: 2rem;
+    width: 100%;
+    max-width: 620px; /* Limit the maximum width */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+  }
+  
+  label {
+    font-size: 1rem; /* Increase font size for labels */
+    margin-bottom: 0.5rem; /* Space between label and input */
+    color: #333; /* Dark grey text color */
+  }
+  
+  input[type="text"] {
+    padding: 0.75rem; /* Add padding inside inputs */
+    margin-bottom: 1rem; /* Space between inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Match font size with labels */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #3498db; /* Change border color on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3); /* Subtle shadow on focus */
+  }
+  
+  button {
+    background-color: #3498db; /* Primary color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 0.75rem 1.5rem; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Match font size with inputs */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+    

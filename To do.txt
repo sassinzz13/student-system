@@ -1,0 +1,9 @@
+Front end:
+implement functionalities 
+log out page design 
+
+Back end:
+Structure
+Api
+database storage
+Authentication 
